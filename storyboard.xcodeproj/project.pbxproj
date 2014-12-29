@@ -13,6 +13,7 @@
 		4C834E4A1A3EB040001283B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C834E491A3EB040001283B3 /* Images.xcassets */; };
 		4C834E4D1A3EB040001283B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C834E4B1A3EB040001283B3 /* LaunchScreen.xib */; };
 		4C834E591A3EB040001283B3 /* storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C834E581A3EB040001283B3 /* storyboardTests.swift */; };
+		4C834E651A3EB3CE001283B3 /* logo-multi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C834E641A3EB3CE001283B3 /* logo-multi.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4C834E521A3EB040001283B3 /* storyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C834E571A3EB040001283B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C834E581A3EB040001283B3 /* storyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboardTests.swift; sourceTree = "<group>"; };
+		4C834E641A3EB3CE001283B3 /* logo-multi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "logo-multi.gif"; path = "../../logo-multi.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				4C834E411A3EB040001283B3 /* Info.plist */,
+				4C834E641A3EB3CE001283B3 /* logo-multi.gif */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				4C834E481A3EB040001283B3 /* Main.storyboard in Resources */,
 				4C834E4D1A3EB040001283B3 /* LaunchScreen.xib in Resources */,
 				4C834E4A1A3EB040001283B3 /* Images.xcassets in Resources */,
+				4C834E651A3EB3CE001283B3 /* logo-multi.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				4C834E5E1A3EB040001283B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C834E5F1A3EB040001283B3 /* Build configuration list for PBXNativeTarget "storyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				4C834E611A3EB040001283B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
